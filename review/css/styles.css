@@ -1,0 +1,47 @@
+/* Set colors for the page */
+body{
+    background-color: rgb(90, 96, 104);
+    color: black; /* this is the font color*/
+}
+
+/* create styles for the h1 tag */
+
+/* Sample - pick your own colors and settings. Make sure to include the ; at the end of the line*/
+
+h1{
+    color: rgb(168, 201, 201);
+    font-family: serif;
+    font-size:x-large;
+    text-align: center;
+}
+
+
+/* create styles for the h2 tag */
+h2{
+    color: rgb(72, 204, 204);
+    font-family: serif;
+    font-size: larger;
+    text-align: center;
+}
+
+/* create styles for the h3 tag */
+h3{
+    color: rgb(53, 224, 224);
+    font-family: serif;
+    font-size:large;
+    text-align: center;
+}
+
+/* create styles for the p tag */
+p{
+    color: rgb(34, 204, 204);
+    font-family: serif;
+    font-size:medium;
+    text-align: center;
+}
+img{
+    width: 30%;
+    display: block;
+    margin: 10px auto; 
+    /* this set of 3 commands centers. 10px is spacing top and bottom, auto is left and right*/
+}
