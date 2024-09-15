@@ -22,5 +22,5 @@ header{
 }
 
 div, header, main, footer{
-    border: 2px solid orange;
+    border: 2px solid black;
 }
