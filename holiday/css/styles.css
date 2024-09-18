@@ -1,0 +1,26 @@
+/*styles*/
+body{
+    background-color:black;
+    color:darkorange;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container{
+    width: 80%;
+    margin: 15px auto;
+}
+
+h1{
+    color:darkorange;
+
+}
+
+header{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div, header, main, footer{
+    border: 2px solid black;
+}
