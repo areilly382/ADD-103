@@ -1,0 +1,37 @@
+body{
+    background: lightblue;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+ul{
+    list-style-type: disc;
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+ul ul{
+    list-style-type: square;
+    color: rgb(122, 86, 17);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ol{
+    color: green;
+}
+
+ol ol{
+    list-style-type:square;
+    color: black;
+}
+
+dt {
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+dd {
+    color: rgb(12, 172, 118);
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -52,13 +52,27 @@ h2 {
 }
 
 /* Placeholder for floating left, add your specific styles here */
-#float-left {
+#float-left img {
     /* Add floating left-specific styles here */
+    float: left;
+    margin: 20px;
+}
+
+#float-left{
+    color: aqua;
+    overflow: auto;
 }
 
 /* Placeholder for floating right, add your specific styles here */
-#float-right {
+#float-right img{
     /* Add floating right-specific styles here */
+    float: right;
+    margin: 20px;
+}
+
+#float-right {
+    color:aqua;
+    overflow: auto;
 }
 
 /* Placeholder for picture tag, add your specific styles here */
@@ -67,11 +81,13 @@ h2 {
 }
 
 /* Placeholder for linked image, add your specific styles here */
-#linked-image {
+#linked-image img{
     /* Add linked image-specific styles here */
+    width: 250px;
 }
 
 /* Placeholder for image as a link, add your specific styles here */
-#img-as-link {
+#img-as-link img{
     /* Add image as link-specific styles here */
+    width: 250px;
 }
