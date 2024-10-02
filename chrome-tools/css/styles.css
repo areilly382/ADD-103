@@ -30,12 +30,12 @@ img {
 }
 
 ul{
-  color: #348e0b
+  color: #348e0b;
+  margin-left: 10px;
 }
 
 ul li {
   list-style-type: disclosure-closed;
-  margin-left: 10px auto;
   color: #10a571;
 }
 
