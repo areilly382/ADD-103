@@ -1,6 +1,6 @@
 body {
   background-color: rgb(236, 186, 243);
-  color: chocolate;
+  color: blueviolet;
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 2;
 }
@@ -18,16 +18,8 @@ h2 {
   text-align: center;
 }
 
-ul {
-  list-style-type: none;
-  margin-left: 30%;
-}
-
-ul a {
-  text-decoration: none;
-  line-height: 1.5;
-  font-size: large;
-  color: rgb(224, 224, 224);
+img {
+  width: 30%;
 }
 
 nav {
