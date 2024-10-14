@@ -1,0 +1,34 @@
+body {
+  color: black;
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+  width: 80%;
+  margin: 10px auto;
+  background-color: rgb(247, 231, 144);
+  padding: 30px;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  margin-left: 30px;
+  color: rgb(240, 227, 56);
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 15px;
+  line-height: 3;
+  background-color: rgb(228, 40, 40);
+  border-radius: 20px;
+  border: 2px solid rgb(240, 208, 66);
+}
+
+nav a:hover {
+  color: rgb(240, 208, 66);
+  font-weight: bold;
+  background: rgb(228, 40, 40);
+}
