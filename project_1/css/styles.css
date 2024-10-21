@@ -22,6 +22,24 @@ img {
   width: 30%;
 }
 
+#kat{
+  overflow: auto;
+}
+
+#kat img{
+  float: right;
+  margin: 20px;
+}
+
+.makeup{
+  overflow: auto;
+}
+
+.makeup img{
+  float: left;
+  margin: 20px;
+}
+
 nav {
   text-align: center;
 }
