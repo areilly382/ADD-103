@@ -1,19 +1,19 @@
 body {
   background-color: rgb(236, 186, 243);
-  color: blueviolet;
+  color: rgb(236, 186, 243);
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 2;
 }
 .container {
   width: 80%;
   margin: 10px auto;
-  background-color: rgb(190, 148, 245);
+  background-color: rgb(115, 13, 248);
   padding: 30px;
 }
 
 h1,
 h2 {
-  color: blueviolet;
+  color: rgb(236, 186, 243);
   font-weight: bolder;
   text-align: center;
 }
