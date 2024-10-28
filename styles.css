@@ -1,0 +1,263 @@
+/* Variables */
+
+:root {
+  --dark_primary: #689f38;
+  --light_primary: #dcedc8;
+  --primary: #8bc34a;
+  --light_text: #86616f;
+  --accent: #795548;
+  --dark_text: #33262b;
+  --head_font: "Libre Baskerville", serif;
+  --p_font: "Poppins", sans-serif;
+}
+
+/* CSS reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* End css reset*/
+* {
+  box-sizing: border-box;
+}
+
+/* remove background and borders */
+
+.container {
+  width: 8;
+  margin: 10px auto;
+  padding: 15px;
+  min-height: 1000px;
+  max-width: 1200px;
+  background: #649c67;
+}
+
+header {
+  min-height: 100px;
+}
+
+header h1 {
+  color: var(--light_primary);
+  font-size: 50px;
+  background-color: var(--primary);
+}
+
+nav {
+  text-align: center;
+  padding: 15px;
+}
+
+aside {
+  width: 20%;
+  margin: 10px;
+  float: right;
+  min-height: 100px;
+}
+
+figure {
+  clear: both;
+  width: 40%;
+  margin: 10px;
+  float: left;
+  padding: 15px;
+}
+
+main {
+  width: 95%;
+  margin: 10px auto;
+  color: #33262b;
+  overflow: auto;
+}
+
+footer {
+  clear: both;
+  background-color: var(--primary);
+}
+
+footer p {
+  color: var(--light_primary);
+  font-size: large;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--head_font);
+  color: var(--dark_text);
+  text-align: center;
+  font-size: larger;
+}
+
+p {
+  font-family: var(--p_font);
+  color: var(--accent);
+}
+
+dt a {
+  text-decoration: none;
+  color: var(--dark_text);
+  font-family: var(--head_font);
+  font-size: large;
+}
+
+dd {
+  font-family: var(--p_font);
+  margin-left: 20px;
+  color: var(--accent);
+  font-size: large;
+}
+
+dt a:hover {
+  text-decoration: underline;
+}
+
+nav a {
+  color: #86616f;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 2px solid #86616f;
+  background: ivory;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: "Spicy Rice", serif;
+}
+
+body {
+  background: var(--dark_primary);
+  color: var(--light_text);
+  line-height: 1.5;
+  font-size: normal;
+}
+
+.left {
+  clear: both;
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
