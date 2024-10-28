@@ -2,11 +2,11 @@
 
 :root {
   --dark_primary: #689f38;
-  --light_primary: #dcedc8;
+  --light_primary: #f5f7f3;
   --primary: #8bc34a;
   --light_text: #86616f;
-  --accent: #795548;
-  --dark_text: #33262b;
+  --accent: #8d5542;
+  --dark_text: #22191d;
   --head_font: "Libre Baskerville", serif;
   --p_font: "Poppins", sans-serif;
 }
