@@ -157,6 +157,7 @@ table {
   background: var(--primary);
 }
 
+
 header {
   min-height: 100px;
 }
@@ -261,3 +262,61 @@ body {
   width: 50%;
   margin: 10px;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+img {
+  margin: 10px auto;
+  width: 90%;
+  display: block;
+}
+
+#main-image {
+  width: 60%;
+  margin: 10px auto;
+}
+
+
+
+#float-left img {
+  float: left;
+  margin: 20px;
+  width: 20%;
+}
+
+#float-left{
+  overflow: auto;
+}
+
+#float-right img{
+  /* Add floating right-specific styles here */
+  float: right;
+  margin: 20px;
+  width: 20%;
+}
+
+#float-right {
+  overflow: auto;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;}
