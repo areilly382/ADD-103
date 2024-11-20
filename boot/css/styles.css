@@ -1,0 +1,25 @@
+body {
+  background: aqua;
+}
+
+.container-fluid {
+  background-color: blueviolet;
+  color: bisque;
+  min-height: 70px;
+  margin-bottom: 20px;
+}
+
+.container,
+.container-lg {
+  background: beige;
+  color: brown;
+}
+
+.container-fluid h1 {
+  text-align: center;
+  color: white;
+}
+
+p.h3 {
+  color: rgb(82, 3, 3);
+}
