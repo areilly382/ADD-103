@@ -167,13 +167,7 @@ em {
 /* remove background and borders */
 header {
   min-height: 100px;
-}
-.container {
-  width: 8;
-  margin: 10px auto;
-  padding: 15px;
-  max-width: 1200px;
-  background: #649c67;
+  position: relative;
 }
 
 .container-fluid {
@@ -182,14 +176,12 @@ header {
   padding: 15px;
   max-width: 1200px;
   background: #649c67;
-  min-height: 1000px;
 }
 
 aside {
   width: 20%;
   margin: 10px;
   float: right;
-  min-height: 100px;
 }
 
 figure {
