@@ -243,3 +243,7 @@ nav {
   z-index: 1000; /* Keeps it above other elements */
   background: #525c52; /* Ensure it's visible over content */
 }
+
+.sticky-top {
+  z-index: 1020; /* Standard Bootstrap z-index */
+}
