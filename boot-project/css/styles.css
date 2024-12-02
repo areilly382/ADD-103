@@ -236,3 +236,10 @@ body {
   width: 50%;
   margin: 10px;
 }
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Keeps it above other elements */
+  background: #525c52; /* Ensure it's visible over content */
+}
