@@ -10,17 +10,137 @@
     />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
+  <!-- Confirmed with you, gets confusing when I use the ID's in the css so styling on page is much easier -->
+  <style>
+    img {
+      max-height: 200px;
+      object-fit: contain;
+      margin: auto;
+    }
+  </style>
   <body>
-    <header class="container-fluid">
-      <h1 class="display-2">My Favorite Artists</h1>
-      <nav class="navbar justify-content-center sticky-top">
-        <a href="../index.html">Favorite Show</a>
-        <a href="artists.html">Favorite Artists</a>
-        <a href="movies.html">Favorite Movies</a>
-        <a href="songs.html">Favorite Songs</a>
-        <a href="vacation.html">Favorite Vacation</a>
-      </nav>
-    </header>
+    <nav class="navbar justify-content-center sticky-top container-fluid">
+      <a href="../index.html">Favorite Show</a>
+      <a href="artists.html">Favorite Artists</a>
+      <a href="movies.html">Favorite Movies</a>
+      <a href="songs.html">Favorite Songs</a>
+      <a href="vacation.html">Favorite Vacation</a>
+    </nav>
+    <div class="container-fluid">
+      <header>
+        <h1 class="display-2">My Favorite Artists</h1>
+      </header>
+      <main>
+        <p class="display-4 text-center">Yungblud</p>
+        <p>
+          Yungblud is a british pop punk artist. I first started listening to
+          his music in 2018 or 2019. A friend of mine invited me to his concert
+          because she thought I would also listen to him, I thought she was
+          talking about the 5 seconds of summer song. I said yes and we got it
+          cleared up in the conversation but she still let me go. The months
+          leading to the concert I listened to everything he had out at the
+          time, which wasn't much. Yungblud had been my number 1 spotify artist
+          every year since then and I currently own two of his albums on vinyl.
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#myModal"
+        >
+          Click Me!
+        </button>
+        <div class="modal" id="myModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Yungblud</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <img src="../images/yungblud.JPG" alt="Vinyl" />
+                <img src="../images/lowlife.JPG" alt="Embroidery" />
+                <img src="../images/guitar.JPG" alt="Yungblud Concert" />
+                <img src="../images/sketch.jpg" alt="Sketch" />
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="display-4 text-center">Green Day</p>
+        <p>
+          I am largely obsessed with Green Day. They have been my second top
+          artist for the past two years and theres about an 80-20 chance I'm
+          listening to them at any given moment. I own over 10 vinyls of theres
+          as I bought their American Idiot 20th aniversary vinyl set box. I
+          dressed up as Billy Joe Armstrong for an easy halloween costume this
+          year. The band greatly inspires me with there entire discography from
+          their emotional music, like Bobby Sox in the Saviors album, to their
+          political music like the Viva La Gloria. I also got to see them live
+          this summer which was a life long dream.
+        </p>
+        <button
+          type="button"
+          class="btn btn-primary"
+          data-bs-toggle="modal"
+          data-bs-target="#greenday"
+        >
+          Again!
+        </button>
+        <div class="modal" id="greenday">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Green Day</h4>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                ></button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body">
+                <img src="../images/concert.JPG" alt="Green Day Concert" />
+                <img
+                  src="../images/hillary.JPG"
+                  alt="Hillary and I at the concert"
+                />
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>

@@ -247,3 +247,25 @@ nav {
 .sticky-top {
   z-index: 1020; /* Standard Bootstrap z-index */
 }
+
+.carousel-item img {
+  max-height: 600px; /* Adjust height as needed */
+  object-fit: contain; /* Ensures image maintains aspect ratio */
+  margin: auto;
+}
+/* ChatGPT to style */
+
+dt {
+  font-size: larger;
+}
+
+dd {
+  font-size: large;
+  padding: 10px;
+}
+
+.col img {
+  max-height: 200px;
+  object-fit: contain;
+  margin: auto;
+}
