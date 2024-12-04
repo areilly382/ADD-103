@@ -270,6 +270,20 @@ dd {
   margin: auto;
 }
 
+#songs img {
+  width: 80%;
+  object-fit: contain;
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+#artists img {
+  max-height: 200px;
+  object-fit: contain;
+  margin: auto;
+}
+
 img {
   width: auto;
   max-height: 300px;

@@ -11,16 +11,6 @@
     <link rel="icon" type="image/x-icon" href="../../favicon.ico" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
-  <!-- Confirmed with you, gets confusing when I use the ID's in the css so styling on page is much easier -->
-  <style>
-    img {
-      width: 80%;
-      object-fit: contain;
-      display:block;
-      margin: 10px auto;
-      padding: 10px;
-    }
-  </style>
   <body>
     <nav class="navbar justify-content-center sticky-top container-fluid">
       <a href="../index.html">Favorite Show</a>
@@ -73,12 +63,13 @@
               src="../images/saviors.JPG"
               alt="Saviors Album Cover"
               class="float-end"
+              id="songs"
             />
           </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
-        <img src="../images/green.JPG" alt="Green Cover" class="float-start" />
+        <img src="../images/green.JPG" alt="Green Cover" class="float-start" id="songs"/>
         </div>
         <div class="col-sm-8">
         <dl>
@@ -102,12 +93,12 @@
         </dl>
         </div>
         <div class="col-sm-4">
-        <img src="../images/grey.JPG" alt="Grey Cover" class="float-end" />
+        <img src="../images/grey.JPG" alt="Grey Cover" class="float-end" id="songs"/>
         </div>
         </div>
         <div class="row">
           <div class="col-sm-4">
-            <img src="../images/american.JPG" alt="American Idiot Cover" class="float-start">
+            <img src="../images/american.JPG" alt="American Idiot Cover" class="float-start" id="songs"/>
           </div>
           <div class="col-sm-8">
             <dt class="h5">Last Night on Earth, 21st Century Breakdown 2009, Green Day</dt>
@@ -115,7 +106,7 @@
           </div>
         </div>
         <figure>
-          <img src="../images/red.JPG" alt="Red Album Cover">
+          <img src="../images/red.JPG" alt="Red Album Cover" class="mx-auto d-block">
           <figcaption class="text-center">The album cover for the b-side and bonus tracks of the American Idiot anniversary Vinyl Box set.</figcaption>
         </figure>
       </main>

@@ -11,14 +11,6 @@
     <link rel="icon" type="image/x-icon" href="../../favicon.ico" />
     <link rel="stylesheet" href="../css/styles.css" />
   </head>
-  <!-- Confirmed with you, gets confusing when I use the ID's in the css so styling on page is much easier -->
-  <style>
-    img {
-      max-height: 200px;
-      object-fit: contain;
-      margin: auto;
-    }
-  </style>
   <body>
     <nav class="navbar justify-content-center sticky-top container-fluid">
       <a href="../index.html">Favorite Show</a>
@@ -66,10 +58,18 @@
 
               <!-- Modal body -->
               <div class="modal-body">
-                <img src="../images/yungblud.JPG" alt="Vinyl" />
-                <img src="../images/lowlife.JPG" alt="Embroidery" />
-                <img src="../images/guitar.JPG" alt="Yungblud Concert" />
-                <img src="../images/sketch.jpg" alt="Sketch" />
+                <img src="../images/yungblud.JPG" alt="Vinyl" id="artists" />
+                <img
+                  src="../images/lowlife.JPG"
+                  alt="Embroidery"
+                  id="artists"
+                />
+                <img
+                  src="../images/guitar.JPG"
+                  alt="Yungblud Concert"
+                  id="artists"
+                />
+                <img src="../images/sketch.jpg" alt="Sketch" id="artists" />
               </div>
 
               <!-- Modal footer -->
@@ -120,10 +120,15 @@
 
               <!-- Modal body -->
               <div class="modal-body">
-                <img src="../images/concert.JPG" alt="Green Day Concert" />
+                <img
+                  src="../images/concert.JPG"
+                  alt="Green Day Concert"
+                  id="artists"
+                />
                 <img
                   src="../images/hillary.JPG"
                   alt="Hillary and I at the concert"
+                  id="artists"
                 />
               </div>
 
