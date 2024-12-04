@@ -269,3 +269,8 @@ dd {
   object-fit: contain;
   margin: auto;
 }
+
+img {
+  width: auto;
+  max-height: 300px;
+}
